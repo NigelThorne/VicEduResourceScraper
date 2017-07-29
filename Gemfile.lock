@@ -1,0 +1,72 @@
+GIT
+  remote: git://github.com/NigelThorne/docx.git
+  revision: 951dfff6bc4c126a6dd2d50854c2fb66cf12ecca
+  specs:
+    docx (0.2.07)
+      nokogiri (~> 1.5)
+      rubyzip (~> 1.1.6)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (9.0.6)
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.1)
+    domain_name (0.5.20161021)
+      unf (>= 0.0.5, < 1.0.0)
+    ffi (1.9.14-x86-mingw32)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    mechanize (2.7.5)
+      domain_name (~> 0.5, >= 0.5.1)
+      http-cookie (~> 1.0)
+      mime-types (>= 1.17.2)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (~> 2.5, >= 2.5.2)
+      nokogiri (~> 1.6)
+      ntlm-http (~> 0.1, >= 0.1.1)
+      webrobots (>= 0.0.9, < 0.2)
+    method_source (0.8.2)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_portile2 (2.2.0)
+    net-http-digest_auth (1.4)
+    net-http-persistent (2.9.4)
+    nokogiri (1.8.0-x86-mingw32)
+      mini_portile2 (~> 2.2.0)
+    ntlm-http (0.1.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.4.2)
+      byebug (~> 9.0)
+      pry (~> 0.10)
+    rubyzip (1.1.7)
+    selenium-webdriver (3.0.3)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    slop (3.6.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2-x86-mingw32)
+    watir (6.0.2)
+      selenium-webdriver (~> 3.0)
+    webrobots (0.1.2)
+    websocket (1.2.3)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  docx (~> 0.2.07)!
+  mechanize
+  pry
+  pry-byebug
+  watir
+
+BUNDLED WITH
+   1.13.6
